@@ -15,4 +15,9 @@ public static void add(int c) {
 	System.out.println(c+s.a+b);
 	
 }
+public void temp() {
+	b=75;
+	System.out.println(b);
+	System.out.println(a);
+}
 }
