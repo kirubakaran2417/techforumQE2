@@ -1,7 +1,6 @@
 package Methods;
 
 public class methods2 {
-
 	public int add(int a,int b) {//here int a ,int b are called parameters
 		int c=a+b;
 		System.out.println(c);

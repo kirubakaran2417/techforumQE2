@@ -9,7 +9,7 @@ public class Addition {
 	int b=20;
 	
 	public void add() {
-	
+	    int c=25;
 		System.out.println(a+b);
 	
 	}
@@ -17,7 +17,7 @@ public class Addition {
 	public static void main(String[] args) {
 		Addition a=new Addition();
 		Addition a2=new Addition();
-a2.add();
+        a2.add();
 		a.add();
 		
 	}
