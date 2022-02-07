@@ -1,0 +1,17 @@
+object 
+class
+
+encapsulation
+polymorphism
+inheritance
+
+a->b->c====>multilevel inheritance
+
+    b<-a->c===>hierarchal inheritance
+    
+    a->b=====>single inheritance
+    
+    c->a<-b====>multiple inheritance(not supported in java)
+
+
+abstraction
