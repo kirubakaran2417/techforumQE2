@@ -1,0 +1,5 @@
+open the browser
+text boxes 
+click the link
+locate the element using xpath and css
+handling check boxes and radio buttons
