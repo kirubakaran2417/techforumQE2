@@ -18,10 +18,13 @@ Properties p;
 	   return driver;
    }
    
-   public void setusername() throws IOException {
+   public Properties getproperty() throws IOException {
 	   fis=new FileInputStream("/home/kkirubakaran/Tech Forum QEA2/Selenium/Resources/config.properties");
 	   p=new Properties();
 	   p.load(fis);
+	   return p;
+   }
+   public void setusername() throws IOException {
 	   driver.findElement(By.id(p.getProperty("username_id"))).sendKeys("dhinesh");
    }
    public void setpassword() {
