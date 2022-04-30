@@ -25,8 +25,9 @@ public class Actiondriver {
 	}
 	/**
 	 * This is used to navigate to application, url is retrived from object.properties
-	 * @param url
+	 * @param url-link to redirect
 	 */
+
 	public void navigatetoapplication(String url) {
 		try {
 		driver.get(url);
